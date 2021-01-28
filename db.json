@@ -1,0 +1,187 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "nguyenvana",
+      "fullname": "Nguyễn Văn A",
+      "position": "Khách hàng",
+      "address": "Nghệ An",
+      "age": 20,
+      "start_date": "20/12/2019",
+      "salary": 5678900,
+      "email": "abc@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "fullname": "Administrator",
+      "position": "Quản trị",
+      "address": "Hà Nội",
+      "age": 20,
+      "start_date": "10/10/2019",
+      "salary": 2378900,
+      "email": "admin@gmail.com"
+    },
+    {
+      "id": 3,
+      "username": "admin",
+      "fullname": "Nguyễn văn Nam",
+      "position": "Khách mời",
+      "address": "Quảng trị",
+      "age": 29,
+      "start_date": "12/12/2012",
+      "salary": 8900,
+      "email": "namnvph08169@fpt.edu.vn"
+    },
+    {
+      "id": 4,
+      "username": "admin",
+      "fullname": "Nguyễn văn Nam",
+      "position": "Thằng ất ơ",
+      "address": "Nghệ An",
+      "age": 20,
+      "start_date": "27/12/2019",
+      "salary": 5678900,
+      "email": "namnvph08169@fpt.edu.vn"
+    },
+    {
+      "username": "demo",
+      "fullname": "Nguyễn văn Nam",
+      "position": "Admin",
+      "address": "",
+      "age": "",
+      "start_date": "",
+      "salary": "",
+      "email": "nguyennam1612k@gmail.com",
+      "id": 5
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Máy tính"
+    },
+    {
+      "id": 2,
+      "name": "Laptop"
+    },
+    {
+      "name": "Điện thoại",
+      "id": 3
+    }
+  ],
+  "product": [
+    {
+      "id": 2,
+      "name": "Máy tính xyz",
+      "price": 2000000,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/211570/samsung-galaxy-a51-white-1-400x400.jpg",
+      "desc": "Dùng thử miễn phí 7 ngày, hỗ trợ đổi máy tại nhà\nThu cũ đổi mới lên đời không mất phí\nMua trả góp 0% lãi suất tại nhà\nLỗi 1 đổi 1 sản phẩm khác, FREE 100% phí",
+      "cate_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Laptop abc",
+      "price": 1000000,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/217287/oppo-a91-trang-600x600-400x400.jpg",
+      "desc": "Combo cáp sạc cao cấp HOCO trị giá 150.000đ\nThu cũ đổi mới lên đời không mất phí\nMua trả góp 0% lãi suất tại nhà\nDùng thử miễn phí 3 ngày, hỗ trợ đổi máy tại nhà",
+      "cate_id": 2
+    },
+    {
+      "id": 4,
+      "name": "Laptop xyz",
+      "price": 2000000,
+      "image": "https://cdn.tgdd.vn/Products/Images/42/78124/iphone-7-plus-32gb-gold-600x600-400x400.jpg",
+      "desc": "Máy trần không hộp, ngoại hình đẹp không trầy, chức năng hoạt động đầy đủ, pin trên 85%, màn hình không điểm chết.",
+      "cate_id": 2
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "name": "Bài viết số 1",
+      "desc": "nội dung bài viết số 1",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Bài viết số 2",
+      "desc": "nội dung bài viết số 2",
+      "user_id": 2
+    },
+    {
+      "id": 3,
+      "name": "Bài viết số 3",
+      "desc": "nội dung bài viết số 3",
+      "user_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Bài viết số 4",
+      "desc": "nội dung bài viết số 4",
+      "user_id": 2
+    }
+  ],
+  "contact": {
+    "id": 1,
+    "address": "số 5 ngõ Viện Máy, phường Mai Dịch, quận Cầu Giấy, Hà Nội"
+  },
+  "slide": [
+    {
+      "id": "1",
+      "image": "https://cdn.tgdd.vn/2020/04/banner/a51-800-300-800x300.png"
+    },
+    {
+      "id": "2",
+      "image": "https://cdn.tgdd.vn/2020/04/banner/800-300-800x300-33.png"
+    },
+    {
+      "id": "3",
+      "image": "https://cdn.tgdd.vn/2020/04/banner/smartwatch-800-300-800x300-1.png"
+    },
+    {
+      "id": "4",
+      "image": "https://cdn.tgdd.vn/2020/04/banner/pk-304-800-300-800x300-1.png"
+    },
+    {
+      "id": "5",
+      "image": "https://cdn.tgdd.vn/2020/04/banner/800-300-800x300-28.png"
+    },
+    {
+      "image": "https://cdn.tgdd.vn/2020/04/banner/a9new2f-800-300-800x300.png",
+      "id": "57ET-8x"
+    }
+  ],
+  "comment": [
+    {
+      "id": 1,
+      "text": "nội dung bài viết số 1",
+      "product_id": 1,
+      "created_at": "16/01/2020"
+    },
+    {
+      "id": 2,
+      "text": "nội dung bài viết số 2",
+      "product_id": 1,
+      "created_at": "16/10/2020"
+    },
+    {
+      "text": "afds",
+      "product_id": "4",
+      "created_at": "Mon May 04 2020 12:35:18 GMT+0700 (Giờ Đông Dương)",
+      "id": 3
+    },
+    {
+      "text": "comment demo",
+      "product_id": "1",
+      "created_at": "Fri May 15 2020 09:23:48 GMT+0700 (Giờ Đông Dương)",
+      "id": 4
+    },
+    {
+      "text": "asdfa",
+      "product_id": "3",
+      "created_at": "Tue Jul 28 2020 15:50:40 GMT+0700 (Giờ Đông Dương)",
+      "id": 5
+    }
+  ]
+}
